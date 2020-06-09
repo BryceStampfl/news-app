@@ -1,0 +1,16 @@
+<mat-toolbar>
+  <mat-toolbar-row>My News Application</mat-toolbar-row>
+  <mat-toolbar-row>
+      <mat-button-toggle-group>
+        <mat-button-toggle (click)="onTabClicked('general')">Top</mat-button-toggle>
+        <mat-button-toggle (click)="onTabClicked('usa')">Usa</mat-button-toggle>
+        <mat-button-toggle (click)="onTabClicked('world')">World</mat-button-toggle>
+        <mat-button-toggle (click)="onTabClicked('business')">Business</mat-button-toggle>
+        <mat-button-toggle (click)="onTabClicked('entertainment')">Entertainment</mat-button-toggle>
+        <mat-button-toggle (click)="onTabClicked('health')">Health</mat-button-toggle>
+        <mat-button-toggle (click)="onTabClicked('science')">Science</mat-button-toggle>
+        <mat-button-toggle (click)="onTabClicked('sports')">Sports</mat-button-toggle>
+        <mat-button-toggle (click)="onTabClicked('technology')">Technology</mat-button-toggle>
+      </mat-button-toggle-group>
+  </mat-toolbar-row>
+</mat-toolbar>
